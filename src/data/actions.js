@@ -1,0 +1,38 @@
+export const protectionActions = [
+  {
+    id: 'runoff',
+    title: 'Ravinnevalumien hillintä',
+    cost: 20,
+    description: 'Kunnostetaan valuma-alueen kosteikkoja ja vähennetään pelloilta vesistöihin kulkeutuvia ravinteita.',
+    primary: 'Ravinnepaine ↓ · happitilanne ↑',
+    limitation: 'Vaikutus rakentuu vähitellen eikä poista jo pohjaan varastoituneita ravinteita.',
+    learning: 'Yhdistyy rehevöitymisen ja valuma-alueiden kierroksen havaintoihin.',
+  },
+  {
+    id: 'habitats',
+    title: 'Rannikon elinympäristöjen suoja',
+    cost: 20,
+    description: 'Turvataan matalia kasvillisuusalueita, suojaisia lahtia ja niiden ekologista yhteyttä.',
+    primary: 'Elinympäristöt ↑ · monimuotoisuus ↑',
+    limitation: 'Ei yksin ratkaise laajalta valuma-alueelta tulevaa ravinnekuormitusta.',
+    learning: 'Hyödyntää kasvi- ja elinympäristökierroksella opittua.',
+  },
+  {
+    id: 'wastewater',
+    title: 'Jätevesien ravinteidenpoisto',
+    cost: 20,
+    description: 'Tehostetaan jäteveden typen ja fosforin poistoa sekä häiriötilanteisiin varautumista.',
+    primary: 'Ravinnepaine ↓ · happitilanne ↑',
+    limitation: 'Kohdistuu yhdyskuntajätevesiin, ei kaikkiin ravinnekuormituksen lähteisiin.',
+    learning: 'Vastaa Suomenlahden kuormitus- ja happihavaintoihin erityisen tehokkaasti.',
+  },
+  {
+    id: 'invasive',
+    title: 'Vieraslajien seuranta',
+    cost: 20,
+    description: 'Seurataan vieraslajien esiintymistä ja tuetaan varhaista havaitsemista.',
+    primary: 'Monimuotoisuuden seuranta ↑',
+    limitation: 'Seuranta parantaa tietoa; se ei yksin poista lajia tai sen aiheuttamaa painetta.',
+    learning: 'Hyödyntää lajintunnistuskierroksen erottelua alkuperäisten ja vieraslajien välillä.',
+  },
+]
